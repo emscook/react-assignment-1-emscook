@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./mod.js"></script>
+</head>
+
+<body style="padding-top: 3.25rem;">
+    <nav class="navbar-cust " role="navigation" aria-label="main navigation" style="display:flex;min-height: 3.25rem;align-items: stretch;">
+        <div class="navbar-menu-cust flex-stack">
+            <div class="navbar-menu-cust flex-row">
+                <div class="navbar-start-cust">
+                    <a href="./home.html" class="weak-item">
+                        <div class="navbar-item-cust flex">
+                            <i class="fas fa-home"></i>
+
+                            Home
+
+                        </div>
+                    </a>
+                    <a href="./moments.html" class="weak-item">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-bolt"></i>
+
+                            Moments
+
+                        </div>
+                    </a>
+                    <a href="./notifications.html" class="weak-item">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-bell"></i>
+
+                            Notifications
+
+                        </div>
+                    </a>
+                    <a class="flex weak-item fillVert" role="button" id="myBtn">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-envelope"></i>
+                            Messages
+                        </div>
+                        <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Some text in the Modal..</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="./notifications.html" class="weak-item">
+                    <div class="bird fillVert">
+
+                        <i class="fab fa-twitter "></i>
+                    </div>
+                </a>
+                <div class="navbar-end-cust flex">
+                    <div class="search-item flex">
+                        <div id="search" class="flex items-center navbar-item-cust fillVert" style="padding:0">
+                            <input type="text" id="search-input" class="flex " placeholder="Search Twitter"></input>
+                            <label for="search-input">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </label>
+                        </div>
+                    </div>
+                    <a href="#explore" class="navbar-item-cust">
+                        <i class="fa fa-user items-center" aria-hidden="true"></i>
+                    </a>
+                    <a>
+                        <div class="navbar-item-cust fillVert special">
+                            Tweet
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-menu-cust">
+                <div class="navbar-start-cust">
+                    <div class="navbar-item-cust">
+                        <a href="./moments.html" class="weak-item">
+                            Today
+                        </a>
+                    </div>
+                    <div class="navbar-item-cust">
+                        <a href="./news.html" class="weak-item">
+                            News
+                        </a>
+                    </div>
+                    <div class="navbar-item-cust">
+                        <a href="./sports.html" class="weak-item">
+                            Sports
+                        </a>
+                    </div>
+                    <div class="navbar-item-cust">
+                        <a href="./entertainment.html" class="weak-item">
+                            Entertainment
+                        </a>
+                    </div>
+                    <div class="navbar-item-cust">
+                        <a href="./fun.html" class="weak-item">
+                            Fun
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-end fillVert">
+                    <a href="#explore" class="navbar-item-cust special">
+                        Create New Moment
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div class="news-back-splash">
+        <div class="pagebar container-three">
+            <div class="pagebar-item fillHori whiteItem squeeze-pad">
+                <div class="tweet-both fillHori" style="height:50%;">
+                    <div class="flex flex-slide" style="height:100%;">
+                        <div class="flex flex-stack" style="width:60%;margin:0 20px 0 0;flex-shrink: 0">
+                            <img src="./news/DgkvID4VMAER7FZ.jpg" class="img" style="display:flex;width:100%;">
+                            <a href="#explore " class="pagebar-item ">
+                                The Simpsons may have 'predicted' this year's World Cup final World Cup 4 hours ago In the 1997 episode The Cartridge Family,
+                                Mexico and Portugal battled it out in a final "to determine which nation is the greatest
+                                on Earth." Now, some World Cup fans are wondering if this "prediction" will come…
+                            </a>
+                        </div>
+                        <div class="flex flex-stack" style="height:88vh">
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/pred.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    A new trailer has dropped for The Predator
+                                </a>
+                            </div>
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/hedidwhat.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    Body found in NFL star Janoris Jenkins' New Jersey home
+                                </a>
+                            </div>
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/blazeit.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    Oklahoma becomes the 30th state to approve medical...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet-both fillHori" style="height:50%;">
+                    <div class="flex flex-slide" style="height:100%;">
+                        <div class="flex flex-stack" style="width:60%;margin:0 20px 0 0;flex-shrink: 0">
+                            <img src="./today/simp.jpg" class="img" style="display:flex;width:100%;">
+                            <a href="#explore " class="pagebar-item ">
+                                The Simpsons may have 'predicted' this year's World Cup final World Cup 4 hours ago In the 1997 episode The Cartridge Family,
+                                Mexico and Portugal battled it out in a final "to determine which nation is the greatest
+                                on Earth." Now, some World Cup fans are wondering if this "prediction" will come…
+                            </a>
+                        </div>
+                        <div class="flex flex-stack" style="height:88vh">
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/pred.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    A new trailer has dropped for The Predator
+                                </a>
+                            </div>
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/hedidwhat.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    Body found in NFL star Janoris Jenkins' New Jersey home
+                                </a>
+                            </div>
+                            <div class="flex flex-slide separated-posts" style="max-height:30%;">
+                                <img src="./today/blazeit.jpg" style="max-width:33%">
+                                <a href="#explore " class="pagebar-item">
+                                    Oklahoma becomes the 30th state to approve medical...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

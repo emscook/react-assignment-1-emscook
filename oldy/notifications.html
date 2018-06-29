@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./mod.js"></script>
+</head>
+
+<body style="padding-top: 3.25rem;">
+    <nav class="navbar-cust " role="navigation" aria-label="main navigation" style="display:flex;min-height: 3.25rem;align-items: stretch;">
+        <div class="navbar-menu-cust flex-stack">
+            <div class="navbar-menu-cust flex-row">
+                <div class="navbar-start-cust">
+                    <a href="./home.html" class="weak-item">
+                        <div class="navbar-item-cust flex">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </div>
+                    </a>
+                    <a href="./moments.html" class="weak-item">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-bolt"></i>
+                            Moments
+                        </div>
+                    </a>
+                    <a href="./notifications.html" class="weak-item">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-bell"></i>
+                            Notifications
+                        </div>
+                    </a>
+                    <a class="flex weak-item fillVert" role="button" id="myBtn">
+                        <div class="navbar-item-cust">
+                            <i class="fas fa-envelope"></i>
+                            Messages
+                        </div>
+                        <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Some text in the Modal..</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="./notifications.html" class="weak-item">
+                    <div class="bird fillVert">
+                        <i class="fab fa-twitter "></i>
+                    </div>
+                </a>
+                <div class="navbar-end-cust flex">
+                    <div class="search-item flex">
+                        <div id="search" class="flex items-center navbar-item-cust fillVert" style="padding:0">
+                            <input type="text" id="search-input" class="flex " placeholder="Search Twitter"></input>
+                            <label for="search-input">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </label>
+                        </div>
+                    </div>
+                    <a href="#explore" class="navbar-item-cust">
+                        <i class="fa fa-user items-center" aria-hidden="true"></i>
+                    </a>
+                    <a>
+                        <div class="navbar-item-cust fillVert special">
+                            Tweet
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="full-back-splash">
+        <div class="pagebar container-three">
+            <div class="pagebar-read third stretch-height">
+                <div class="fillHori left-text">
+                    <a href="#explore " class="pagebar-read trends whiteItem read-padding">
+                        Trends For You
+                    </a>
+                </div>
+            </div>
+            <div class="pagebar-item two-thirds whiteItem squeeze-pad">
+                <div class="flex-slide">
+                    <div class="fillHori">
+                        <span class="cur-at">
+                            All
+                        </span>
+                    </div>
+                    <div class="fillHori">
+                        <a href="./mentions.html" class="pagebar-item fillHori">
+                            Mentions
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        What's happening?
+                    </a>
+                </div>
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        @Evan XD SO FUNE
+                    </a>
+                </div>
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        is it happening?
+                    </a>
+                </div>
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        @Evan yo whats up
+                    </a>
+                </div>
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        it isn't happening.
+                    </a>
+                </div>
+                <div class="tweet-both fillHori">
+                    <a href="#explore " class="pagebar-item fillHori">
+                        @Evan more?
+                    </a>
+                </div>
+            </div>
+            <div class="pagebar-item third">
+                <div class="fillHori">
+                    <div class="separated-posts whiteItem">
+                        <a href="#explore " class="pagebar-item ">
+                            Who to follow?
+                        </a>
+                    </div>
+                    <div class="separated-posts whiteItem">
+                        <a href="#explore " class="pagebar-read read-padding">
+                            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads info Brand Blog Status Apps Jobs Marketing Businesses Developers
+                        </a>
+                    </div>
+                    <div class="separated-posts whiteItem">
+                        <a href="#explore " class="pagebar-read read-padding">
+                            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads info Brand Blog Status Apps Jobs Marketing Businesses Developers
+                        </a>
+                    </div>
+                    <div class="separated-posts whiteItem">
+                        <a href="#explore " class="pagebar-read read-padding">
+                            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads info Brand Blog Status Apps Jobs Marketing Businesses Developers
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
